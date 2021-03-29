@@ -1,0 +1,31 @@
+body {
+	text-align: center;
+	list-style: none;
+}
+
+.container {
+	list-style-position: inside;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .navbar {
+	list-style: none;
+	display: flex;
+}
+
+.container .navbar li a {
+	margin: 5px;
+}
+
+h1 {
+	color: red;
+}
+h3 {
+	color: blue;
+}
+h4 {
+	color: brown;
+}
